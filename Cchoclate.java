@@ -21,7 +21,7 @@ public class Cchoclate
           for(j=0;j<2;j++)
           {
               if(arr[i][j]!=1)
-                cuts=arr[i][j]-1;
+                cuts+=arr[i][j]-1;
               
           }
           System.out.println(cuts);
