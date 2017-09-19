@@ -6,7 +6,7 @@ public class Cchoclate
   public static void main(String args[])
   {
       Scanner sc = new Scanner(System.in);
-      int num_tcase = sc.nextInt(),i,cuts;
+      int num_tcase = sc.nextInt(),i,j,cuts;
       int[][] arr = new int[num_tcase][2];
       for(i=0;i<num_tcase;i++)
       {
